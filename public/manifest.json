@@ -1,0 +1,43 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "e2e9c185-3d8a-4b9b-8f1e-9e7f4c3d2a1b",
+    "packageName": "com.orgchart.app",
+    "developer": {
+        "name": "Org Chart App",
+        "websiteUrl": "https://cspl-designer.github.io/org-chart-app/",
+        "privacyUrl": "https://cspl-designer.github.io/org-chart-app/privacy.html",
+        "termsOfUseUrl": "https://cspl-designer.github.io/org-chart-app/terms.html"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Org Chart",
+        "full": "Interactive Org Chart"
+    },
+    "description": {
+        "short": "Visualize your organization structure.",
+        "full": "An interactive organizational chart application allowing you to visualize and manage your team structure with ease."
+    },
+    "accentColor": "#3b82f6",
+    "staticTabs": [
+        {
+            "entityId": "org-chart-tab",
+            "name": "Org Chart",
+            "contentUrl": "https://cspl-designer.github.io/org-chart-app/",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "cspl-designer.github.io"
+    ]
+}
